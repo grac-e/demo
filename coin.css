@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #0d5f33;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #043825;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    margin-bottom: 40px;
+    align-items: start; /* Ensure alignment starts at the top */
+}
+
+.grid-item.heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.grid-item.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.grid-item h2 {
+    font-size: 2em;
+    color: #ab9110;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.grid-item h2 i {
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+section {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+section p, section ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+ul li i {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #0d5f33;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-top: 5px solid #043825;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
