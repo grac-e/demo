@@ -85,7 +85,7 @@ ul {
 
 ul li {
     padding: 12px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(129, 126, 126);
     display: flex;
     align-items: center;
 }
